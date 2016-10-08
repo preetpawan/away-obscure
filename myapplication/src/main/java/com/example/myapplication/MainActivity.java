@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-
                 if (checkedId == R.id.RadioButton01) {
                     Toast.makeText(getApplicationContext(), "choice: 1", Toast.LENGTH_SHORT).show();
                 } else if (checkedId == R.id.RadioButton02) {
